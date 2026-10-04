@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+a {
+  text-decoration: none;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    #ffffff,
+    #eef4ff
+  );
+}
+
+.hero-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.auth-wrapper {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  border-radius: 15px;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.stat-card h6 {
+  color: #6c757d;
+}
+
+.stat-card h2 {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.card {
+  border: none;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 10px;
+}
